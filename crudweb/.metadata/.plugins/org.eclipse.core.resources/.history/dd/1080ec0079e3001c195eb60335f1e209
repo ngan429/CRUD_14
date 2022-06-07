@@ -1,0 +1,59 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+</head>
+<body>
+	<div class="sidebar">
+		<div class="slidebar-header">
+			<h3 class="brand">
+				<span class="ti-unlink"></span>
+				<span>easywrite</span>
+			</h3>
+			<span class="ti-menu-alt"></span>
+		</div>
+		<div class="sidebar-menu">
+			<ul>
+				 <li class="sidebar-item active">
+                    <a href="">
+                        <span class="ti-settings" ></i> 
+                        <span class="align-middle">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <span class="ti-settings"></span> 
+                        <span class="align-middle">Database</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="">
+                        <span class="ti-settings"></span> 
+                        <span class="align-middle">Table</span>
+                    </a>
+                </li>
+					
+			</ul>
+		</div>
+		<div class="main-content">
+			<header>
+				<div class="social-icons"></div>
+					<span class="ti-bell"></span>
+					<span class="ti-comment"></span>
+			</header>
+		
+		</div>
+	</div>
+
+</body>
+</html>
